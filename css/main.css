@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  background-color: ###;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: ;
+  border: 3px solid;
+  color: ;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  padding: 0;
+  margin: .3em 0;
+}
+
+.pages li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.pages a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  margin: .3em;
+  padding: .6em .5em .75em;
+  border-radius: 5px;
+}
+
+.pages a:hover {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
